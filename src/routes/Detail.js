@@ -12,6 +12,7 @@ text-align: center;
 
 
 function Detail() {
+
     const {id} = useParams();
     const [movie, setMovie] = useState("");
     const getMovie = async () => {
